@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
 }
 
 .dateandclock-container {
@@ -19,12 +19,38 @@ body {
 
 #date {
   font-size: 1.5rem;
-  color: #555555;
+  color: #000;
 }
 
 .date-display mark {
-    background-color: #ffe600;
-    border-radius: 3px;
-    padding: 0 5px;
-    color: #222222;
+  background-color: #8a87ff;
+  border-radius: 5px;
+  padding: 0 5px;
+  color: #222222;
+}
+
+.github-link {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #222222;
+  font-size: 1.2em;
+  border: 1px solid #222222;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.github-link:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.img-github {
+  vertical-align: middle;
+  filter: invert(0);
+}
+
+.github-link:hover .img-github {
+  filter: invert(1);
 }
